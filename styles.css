@@ -16,50 +16,6 @@ body {
     padding: 1rem;
 }
 
-/* Header styles */
-header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 1rem 0;
-}
-
-.logo {
-    font-size: 1.5rem;
-    font-weight: 600;
-}
-
-.header-right {
-    display: flex;
-    gap: 0.5rem;
-    align-items: center;
-}
-
-.icon-button {
-    background: none;
-    border: none;
-    cursor: pointer;
-    padding: 0.5rem;
-}
-
-.icon-button img {
-    width: 24px;
-    height: 24px;
-    opacity: 0.7;
-}
-
-.profile-button {
-    width: 32px;
-    height: 32px;
-    border-radius: 50%;
-    background-color: #7c3aed;
-    color: white;
-    border: none;
-    font-weight: 600;
-    cursor: pointer;
-}
-
-/* Main content styles */
 main {
     display: flex;
     flex-direction: column;
@@ -84,7 +40,6 @@ main {
     color: #666;
 }
 
-/* Search box styles */
 .search-container {
     width: 100%;
     max-width: 800px;
@@ -106,12 +61,6 @@ main {
     gap: 0.5rem;
 }
 
-.input-icon {
-    width: 20px;
-    height: 20px;
-    opacity: 0.5;
-}
-
 .search-input-container input {
     flex: 1;
     border: none;
@@ -124,24 +73,6 @@ main {
     display: flex;
     align-items: center;
     gap: 0.5rem;
-}
-
-.dropdown-button, .think-button {
-    display: flex;
-    align-items: center;
-    gap: 0.5rem;
-    padding: 0.5rem 1rem;
-    border: 1px solid #e5e7eb;
-    border-radius: 6px;
-    background-color: #fff;
-    cursor: pointer;
-    font-size: 0.875rem;
-}
-
-.dropdown-button img, .think-button img {
-    width: 16px;
-    height: 16px;
-    opacity: 0.7;
 }
 
 .model-selector {
@@ -171,35 +102,3 @@ main {
     height: 16px;
     opacity: 0.5;
 }
-
-/* Action buttons styles */
-.action-buttons {
-    display: flex;
-    gap: 1rem;
-    justify-content: center;
-    flex-wrap: wrap;
-}
-
-.action-button {
-    display: flex;
-    align-items: center;
-    gap: 0.5rem;
-    padding: 0.75rem 1.5rem;
-    border: 1px solid #e5e7eb;
-    border-radius: 8px;
-    background-color: #fff;
-    cursor: pointer;
-    font-size: 0.875rem;
-    color: #1a1a1a;
-    transition: all 0.2s ease;
-}
-
-.action-button:hover {
-    background-color: #f9fafb;
-}
-
-.action-button img {
-    width: 20px;
-    height: 20px;
-    opacity: 0.7;
-} 
