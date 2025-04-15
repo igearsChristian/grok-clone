@@ -23,6 +23,15 @@ main {
     margin-top: 15rem;
 }
 
+main.replied {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 0rem;
+    height: 95vh; 
+    justify-content: space-between;
+}
+
 .welcome-text {
     text-align: center;
     margin-bottom: 2rem;
@@ -132,4 +141,54 @@ main {
     width: 16px;
     height: 16px;
     opacity: 0.5;
+}
+
+.loading-indicator {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    margin-top: 1rem;
+    color: #4b5563;
+}
+
+.loading-spinner {
+    width: 2rem;
+    height: 2rem;
+    border: 3px solid #e5e7eb;
+    border-top: 3px solid #7c3aed;
+    border-radius: 50%;
+    animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+.expand-button:disabled {
+    cursor: not-allowed;
+    opacity: 0.5;
+}
+
+.response-content {
+    margin-top: 0.5rem;
+    padding: 1.5rem;
+    background-color: #f9fafb;
+    border-radius: 12px;
+    border: 1px solid #e5e7eb;
+    white-space: pre-wrap;
+    line-height: 1.6;
+    font-size: 1rem;
+    color: #1f2937;
+}
+
+.error-message {
+    margin-top: 2rem;
+    padding: 1rem;
+    background-color: #fee2e2;
+    border: 1px solid #fecaca;
+    border-radius: 8px;
+    color: #dc2626;
+    text-align: center;
 }

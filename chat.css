@@ -20,7 +20,10 @@ main {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-top: 55rem;
+    /* margin-top: 15rem; */
+    /* Added height to allow justify-content to work */
+    height: 70vh; 
+    justify-content: flex-end;
 }
 
 .search-container {
