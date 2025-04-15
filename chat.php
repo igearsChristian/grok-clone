@@ -3,19 +3,15 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Grok</title>
+    <title>Grok - Chat</title>
     <link rel="stylesheet" href="styles.css">
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 </head>
 <body>
     <div class="container">
 
         <main>
-            <div class="welcome-text">
-                <h1>Good afternoon, Christian.</h1>
-                <h2>How can I help you today?</h2>
-            </div>
-
             <div class="search-container">
                 <div class="search-box">
                     <div class="search-input-container">
@@ -32,8 +28,7 @@
                     </div>
                 </div>
             </div>
-
         </main>
-    </div>
+        </div>
 </body>
 </html> 
